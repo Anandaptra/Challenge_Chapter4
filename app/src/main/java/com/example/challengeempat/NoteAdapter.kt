@@ -22,7 +22,6 @@ class NoteAdapter(var listNote : List<DataNote>): RecyclerView.Adapter<NoteAdapt
 //        }
     }
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteAdapter.ViewHolder {
         var view = ItemNoteBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(view)
@@ -52,7 +51,7 @@ class NoteAdapter(var listNote : List<DataNote>): RecyclerView.Adapter<NoteAdapt
             }
             Navigation.findNavController(it).navigate(R.id.homeFragment)
 
-            Toast.makeText(it.context, "berhasil", Toast.LENGTH_SHORT).show()
+            Toast.makeText(it.context, "Data Berhasil di Hapus", Toast.LENGTH_SHORT).show()
         }
     }
 

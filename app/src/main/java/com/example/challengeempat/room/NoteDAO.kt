@@ -8,7 +8,7 @@ interface NoteDAO {
     @Insert
     fun insertNote(note: DataNote)
 
-    @Query("SELECT * FROM DataNote ORDER BY id DESC ")
+    @Query("SELECT * FROM DataNote ORDER BY id ASC ")
     fun getDataNote() : List<DataNote>
 
     @Delete

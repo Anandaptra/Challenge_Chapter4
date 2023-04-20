@@ -10,18 +10,18 @@
         android:id="@+id/idNote"
         android:focusable="false"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="48dp"/>
     <EditText
         android:id="@+id/editTitle"
         android:hint="add Your Note title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="48dp"/>
     <EditText
         android:id="@+id/editNotee"
         android:hint="Your Note"
         android:maxLines="6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="48dp"/>
     <Button
         android:layout_gravity="center_horizontal"
         android:id="@+id/btnEditNote"
